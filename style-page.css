@@ -1,4 +1,12 @@
 
+body
+{
+  height: 100vh;
+}
+.container
+{
+  height: 100vh;
+}
 
 .image
 {
@@ -11,7 +19,11 @@ display: flex;
 justify-content: flex-end;
 list-style-type: none;
 
+}
 
+.centre
+{
+  height: 80%;
 }
 
 .marge1
@@ -24,4 +36,39 @@ a:link
 {
   text-decoration: none;
 
+}
+
+.bouton
+{
+  background-color: #E3E3E3;
+  display flex;
+  justify-content: flex-end;
+  font-family: arial
+  padding: 16px
+  margin: 11px 4px 11px 4px
+
+}
+
+#forma
+{
+  width: 450px;
+  margin: 35px;
+  border-style: outset;
+}
+
+
+.deuxiemeetage
+{ display: flex;
+
+}
+
+.droite
+{
+  text-align: right;
+}
+
+
+footer
+{
+  background-color: #E3E3E3;
 }
