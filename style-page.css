@@ -8,9 +8,9 @@ body
   height: 100vh;
 }
 
-.image
-{
-text-align: center;
+.image{
+  display: flex;
+  justify-content: center;
 }
 
 .header
@@ -18,8 +18,24 @@ text-align: center;
 display: flex;
 justify-content: flex-end;
 list-style-type: none;
-
 }
+
+.lien
+{
+ color: #fff;
+ font-weight: bold;
+ background: #5187EB;
+ padding: 5px;
+ border-radius: 2px;
+}
+.lien a:hover
+{
+ box-shadow: 0px 1px 3px #000;
+ text-decoration: none;
+}
+
+
+
 
 .centre
 {
@@ -35,6 +51,13 @@ margin-right: 10px;
 a:link
 {
   text-decoration: none;
+  color: black;
+
+}
+
+a:hover
+{
+  text-decoration: underline;
 
 }
 
@@ -43,7 +66,8 @@ a:link
   background-color: #E3E3E3;
   display flex;
   justify-content: flex-end;
-  font-family: arial
+  font-family: arial;
+  font-weight: bold;
   padding: 16px
   margin: 11px 4px 11px 4px
 
@@ -54,21 +78,42 @@ a:link
   width: 450px;
   margin: 35px;
   border-style: outset;
+  display: flex;
+  justify-content: center;
 }
 
+.center2{
+  display: flex;
+justify-content: center;
+}
+
+.center3{
+  display: flex;
+  justify-content: center;
+
+}
+.premieretage
+{
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  margin-left: 20px;
+}
 
 .deuxiemeetage
-{ display: flex;
-
-}
-
-.droite
 {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 
 footer
 {
   background-color: #E3E3E3;
+}
+
+.droite {
+display: flex;
+justify-content: flex-end;
+list-style: none;
+
 }
