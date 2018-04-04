@@ -83,7 +83,8 @@ a:hover
 #forma
 {
   width: 450px;
-  margin: 35px;
+  height: 38px;
+  margin: 25px;
   border-style: outset;
   display: flex;
   justify-content: center;
@@ -101,9 +102,12 @@ justify-content: center;
 }
 .premieretage
 {
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
+  border-bottom: 1px solid #D2D2D2;
+  border-top: 1px solid #D2D2D2;
   margin-left: 20px;
+  font-family: arial;
+  color: #6B6A6A;
+  padding: 0.5px
 }
 
 .deuxiemeetage
@@ -113,7 +117,10 @@ justify-content: center;
 
 }
 .deuxiemeetage ul {
-  padding : 15px;
+  padding : 10px;
+  font-family: arial;
+  color: #6B6A6A;
+
 }
 
 footer
@@ -125,5 +132,6 @@ footer
 display: flex;
 justify-content: flex-end;
 list-style: none;
+
 
 }
