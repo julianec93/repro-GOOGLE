@@ -3,6 +3,10 @@ body
 {
   height: 100vh;
 }
+ul {
+  margin : 0;
+  padding : 0;
+}
 .container
 {
   height: 100vh;
@@ -63,16 +67,19 @@ a:hover
 
 .bouton
 {
+  opacity: 0.5 ;
   background-color: #E3E3E3;
   display flex;
-  justify-content: flex-end;
+
   font-family: arial;
   font-weight: bold;
-  padding: 16px
-  margin: 11px 4px 11px 4px
+  padding: 16px ;
+  margin: 11px 4px 11px 4px ;
 
 }
-
+.bouton:hover{
+  opacity: 1 ;
+}
 #forma
 {
   width: 450px;
@@ -103,8 +110,11 @@ justify-content: center;
 {
   display: flex;
   justify-content: space-between;
-}
 
+}
+.deuxiemeetage ul {
+  padding : 15px;
+}
 
 footer
 {
