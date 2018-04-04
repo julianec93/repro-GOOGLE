@@ -15,6 +15,7 @@ ul {
 .image{
   display: flex;
   justify-content: center;
+  
 }
 
 .header
@@ -66,10 +67,6 @@ a:hover
   text-decoration: underline;
 
 }
-
-.image
-{
-  margin-bottom: 0.1px;
 
 }
 
