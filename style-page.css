@@ -4,3 +4,24 @@
 {
 text-align: center;
 }
+
+.header
+{
+display: flex;
+justify-content: flex-end;
+list-style-type: none;
+
+
+}
+
+.marge1
+{
+margin-right: 10px;
+
+}
+
+a:link
+{
+  text-decoration: none;
+
+}
