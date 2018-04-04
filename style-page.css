@@ -65,6 +65,12 @@ a:hover
 
 }
 
+.image
+{
+  margin-bottom: 0.1px;
+
+}
+
 .bouton
 {
   opacity: 0.5 ;
@@ -73,6 +79,7 @@ a:hover
 
   font-family: arial;
   font-weight: bold;
+  font-size: 13px;
   padding: 16px ;
   margin: 11px 4px 11px 4px ;
 
@@ -106,8 +113,10 @@ justify-content: center;
   border-top: 1px solid #D2D2D2;
   margin-left: 20px;
   font-family: arial;
+  font-size: 13px;
   color: #6B6A6A;
-  padding: 0.5px
+  padding: 0.5px;
+
 }
 
 .deuxiemeetage
@@ -120,6 +129,7 @@ justify-content: center;
   padding : 10px;
   font-family: arial;
   color: #6B6A6A;
+  font-size: 13px;
 
 }
 
